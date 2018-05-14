@@ -1,0 +1,123 @@
+.blueBack {
+	background-color: rgba(179, 214, 239, 0.9);
+}
+
+.redBack {
+	background-color: #860038;
+}
+
+#loanInfo {
+	float: left;
+}
+
+#search {
+	float: right;
+}
+
+#search input {
+	box-sizing: border-box;
+}
+
+#popular {
+	float: right;
+	margin-top: 25px;
+}
+
+.block .title {
+	font-family: "Segoe UI Semilight","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+	overflow: hidden;
+	text-align: justify;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	background: #860038;
+	padding-left: 0px;
+	color: #FFF;
+	font-size: 22px;
+	font-weight: 300;
+}
+
+.block table {
+	width: 440px;
+}
+
+.block table .resTitle {
+	width: 70%;
+}
+
+#actions {
+	height: 120px;
+}
+
+.appicon01 {
+    display: block;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    /*width: 150px;*/
+    height: 120px;
+    /*top: 0px;
+    left: 0px;*/
+}
+
+.appiconcb {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 150px;
+    height: 25px;
+}
+
+.appiconc {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    text-align: center;
+    width: 100%;
+    min-height: 25px;
+    line-height: 25px;
+    font-family: Verdana, Arial;
+    color: #55556B;
+    font-size: 14px;
+    text-decoration: none;
+    background-color: rgba(240,240,240,0.9);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 50%, rgba(0, 0, 0, 0.02) 51%);
+}
+
+#search form {
+	min-width: 440px;
+	max-width: 440px;
+	margin-top: 3px;
+}
+
+#search form #query {
+	font-size: 14px;
+	min-width: 440px;
+	max-width: 440px;
+}
+
+#search form input[type='submit'] {
+	min-width: 440px;
+	max-width: 440px;
+}
+
+div.tree-multiselect .title {
+	font-size: 16px;
+}
+
+div.tree-multiselect .item {
+	font-size: 14px;
+}	
+
+#enableButton, #disableButton {
+	text-align: center;
+	height: 30px;
+}
+
+#enableButton {
+	background-color: rgba(179, 214, 239, 1);
+}
+
+#disableButton {
+	background-color: #860038;
+	color: white;
+}

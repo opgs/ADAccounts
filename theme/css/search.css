@@ -1,0 +1,5 @@
+.dataTables_wrapper{background-color: #ccc;font-family: "Segoe UI";font-size: 14px;}
+
+table td:nth-of-type(3), table th:nth-of-type(3) {
+	display: none;
+}
